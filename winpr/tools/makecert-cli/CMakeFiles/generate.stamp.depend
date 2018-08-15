@@ -1,4 +1,0 @@
-# CMake generation dependency list for this directory.
-D:/GitHub/FreeRDP/cmake/WindowsDLLVersion.rc.in
-D:/GitHub/FreeRDP/winpr/tools/makecert-cli/CMakeLists.txt
-D:/GitHub/FreeRDP/winpr/tools/makecert-cli/winpr-makecert.1.in

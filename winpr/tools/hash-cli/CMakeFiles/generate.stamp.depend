@@ -1,4 +1,0 @@
-# CMake generation dependency list for this directory.
-D:/GitHub/FreeRDP/cmake/WindowsDLLVersion.rc.in
-D:/GitHub/FreeRDP/winpr/tools/hash-cli/CMakeLists.txt
-D:/GitHub/FreeRDP/winpr/tools/hash-cli/winpr-hash.1.in
