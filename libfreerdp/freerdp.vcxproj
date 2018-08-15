@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D9CEE91F-AF47-315B-A6F9-3582C0EE6BBE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>freerdp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\GitHub\FreeRDP\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">freerdp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">freerdp2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\GitHub\FreeRDP\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">freerdp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">freerdp2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\GitHub\FreeRDP\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">freerdp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">freerdp2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\GitHub\FreeRDP\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">freerdp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">freerdp2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;EXT_PATH="C:/Program Files (x86)/FreeRDP/lib/freerdp2/extensions";CMAKE_BUILD_TYPE=Release;CMAKE_INTDIR="Debug";freerdp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;EXT_PATH=\"C:/Program Files (x86)/FreeRDP/lib/freerdp2/extensions\";CMAKE_BUILD_TYPE=Release;CMAKE_INTDIR=\"Debug\";freerdp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;..\Debug\winpr2.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FreeRDP/Debug/freerdp2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FreeRDP/Debug/freerdp2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;EXT_PATH="C:/Program Files (x86)/FreeRDP/lib/freerdp2/extensions";CMAKE_BUILD_TYPE=Release;CMAKE_INTDIR="Release";freerdp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;EXT_PATH=\"C:/Program Files (x86)/FreeRDP/lib/freerdp2/extensions\";CMAKE_BUILD_TYPE=Release;CMAKE_INTDIR=\"Release\";freerdp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;..\Release\winpr2.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FreeRDP/Release/freerdp2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FreeRDP/Release/freerdp2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;EXT_PATH="C:/Program Files (x86)/FreeRDP/lib/freerdp2/extensions";CMAKE_BUILD_TYPE=Release;CMAKE_INTDIR="MinSizeRel";freerdp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;EXT_PATH=\"C:/Program Files (x86)/FreeRDP/lib/freerdp2/extensions\";CMAKE_BUILD_TYPE=Release;CMAKE_INTDIR=\"MinSizeRel\";freerdp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;..\MinSizeRel\winpr2.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FreeRDP/MinSizeRel/freerdp2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FreeRDP/MinSizeRel/freerdp2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;EXT_PATH="C:/Program Files (x86)/FreeRDP/lib/freerdp2/extensions";CMAKE_BUILD_TYPE=Release;CMAKE_INTDIR="RelWithDebInfo";freerdp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;EXT_PATH=\"C:/Program Files (x86)/FreeRDP/lib/freerdp2/extensions\";CMAKE_BUILD_TYPE=Release;CMAKE_INTDIR=\"RelWithDebInfo\";freerdp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;..\RelWithDebInfo\winpr2.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FreeRDP/RelWithDebInfo/freerdp2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FreeRDP/RelWithDebInfo/freerdp2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\utils\passphrase.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\utils\pcap.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\utils\profiler.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\utils\ringbuffer.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\utils\signal.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\utils\stopwatch.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\common\addin.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\common\settings.c">
+      <ObjectFileName>$(IntDir)/common/settings.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\common\assistance.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\bitmap.c">
+      <ObjectFileName>$(IntDir)/gdi/bitmap.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\brush.c">
+      <ObjectFileName>$(IntDir)/gdi/brush.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\clipping.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\dc.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\drawing.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\line.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\pen.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\region.c">
+      <ObjectFileName>$(IntDir)/gdi/region.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\shape.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\graphics.c">
+      <ObjectFileName>$(IntDir)/gdi/graphics.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\gdi\graphics.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\gfx.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\video.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\gdi\gdi.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\gdi\gdi.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\cache\brush.c">
+      <ObjectFileName>$(IntDir)/cache/brush.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\cache\brush.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\cache\pointer.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\cache\pointer.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\cache\bitmap.c">
+      <ObjectFileName>$(IntDir)/cache/bitmap.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\cache\bitmap.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\cache\nine_grid.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\cache\offscreen.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\cache\palette.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\cache\palette.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\cache\glyph.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\cache\glyph.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\cache\cache.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\cache\cache.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\crypto\er.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\crypto\der.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\crypto\ber.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\crypto\per.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\crypto\base64.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c">
+      <ObjectFileName>$(IntDir)/crypto/certificate.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\crypto\crypto.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\crypto\tls.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\crypto\opensslcompat.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\locale\keyboard_layout.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\locale\keyboard.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\locale\locale.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\locale\liblocale.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\bulk.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\bulk.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\activation.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\activation.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gcc.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gcc.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\mcs.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\mcs.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\nla.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\nla.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\nego.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\nego.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\info.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\info.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\input.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\input.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\license.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\license.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\errinfo.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\errbase.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\errconnect.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\errinfo.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\security.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\security.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\settings.c">
+      <ObjectFileName>$(IntDir)/core/settings.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\orders.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\orders.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\freerdp.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\graphics.c">
+      <ObjectFileName>$(IntDir)/core/graphics.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\client.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\client.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\server.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\server.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\codecs.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\metrics.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\capabilities.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\capabilities.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\certificate.c">
+      <ObjectFileName>$(IntDir)/core/certificate.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\certificate.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\connection.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\connection.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\redirection.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\redirection.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\autodetect.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\autodetect.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\heartbeat.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\heartbeat.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\multitransport.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\multitransport.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\timezone.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\timezone.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\rdp.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\rdp.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\tcp.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\tcp.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\proxy.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\proxy.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\tpdu.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\tpdu.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\tpkt.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\tpkt.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\fastpath.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\fastpath.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\surface.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\surface.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\transport.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\transport.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\update.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\update.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\message.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\message.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\channels.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\channels.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\window.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\window.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\listener.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\listener.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\peer.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\peer.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\tsg.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\tsg.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rdg.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rdg.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rpc.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rpc.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rpc_bind.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rpc_bind.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rpc_client.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rpc_client.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rpc_fault.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rpc_fault.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rts.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rts.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rts_signature.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\rts_signature.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\ntlm.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\ntlm.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\http.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\http.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\ncacn_http.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\core\gateway\ncacn_http.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\dsp.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\color.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\audio.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\planar.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c">
+      <ObjectFileName>$(IntDir)/codec/bitmap.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\interleaved.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\progressive.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_bitstream.h" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_constants.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_decode.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_decode.h" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_differential.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_dwt.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_dwt.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_encode.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_encode.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_quantization.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_quantization.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.h" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_types.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\region.c">
+      <ObjectFileName>$(IntDir)/codec/region.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\nsc.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\nsc_encode.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\nsc_encode.h" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\nsc_types.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\ncrush.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\xcrush.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\mppc.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\zgfx.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\clear.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\jpeg.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\h264.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\yuv.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_sse2.c">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\rfx_sse2.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\nsc_sse2.c">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\codec\nsc_sse2.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\codec\h264_mf.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_add.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_andor.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_alphaComp.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_colors.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_copy.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_set.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_shift.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_sign.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_YUV.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_YCoCg.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\primitives.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_internal.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_colors_opt.c">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_set_opt.c">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_add_opt.c">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_alphaComp_opt.c">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_andor_opt.c">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_shift_opt.c">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_sign_opt.c">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_YCoCg_opt.c">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\libfreerdp\primitives\prim_YUV_ssse3.c">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ResourceCompile Include="D:\GitHub\FreeRDP\libfreerdp\version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\GitHub\FreeRDP\winpr\libwinpr\winpr.vcxproj">
+      <Project>{6CEF80CC-1806-31DC-B31B-F03F7BA7FB5F}</Project>
+      <Name>winpr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

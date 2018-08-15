@@ -1,0 +1,92 @@
+﻿  wf_gdi.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: 'STATUS_NO_SUCH_LOGON_SESSION': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: see previous definition of 'STATUS_NO_SUCH_LOGON_SESSION'
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: 'STATUS_NO_SUCH_USER': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: see previous definition of 'STATUS_NO_SUCH_USER'
+D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(495): error C2664: 'BOOL wf_decode_color(wfContext *,const UINT32,COLORREF *,UINT32 *)': cannot convert argument 3 from 'UINT32 *' to 'COLORREF *'
+  D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(495): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(498): error C2664: 'BOOL wf_decode_color(wfContext *,const UINT32,COLORREF *,UINT32 *)': cannot convert argument 3 from 'UINT32 *' to 'COLORREF *'
+  D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(498): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(550): error C2664: 'BOOL wf_decode_color(wfContext *,const UINT32,COLORREF *,UINT32 *)': cannot convert argument 3 from 'UINT32 *' to 'COLORREF *'
+  D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(550): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(581): error C2664: 'BOOL wf_decode_color(wfContext *,const UINT32,COLORREF *,UINT32 *)': cannot convert argument 3 from 'UINT32 *' to 'COLORREF *'
+  D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(581): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(615): error C2664: 'BOOL wf_decode_color(wfContext *,const UINT32,COLORREF *,UINT32 *)': cannot convert argument 3 from 'UINT32 *' to 'COLORREF *'
+  D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(615): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(649): error C2664: 'BOOL wf_decode_color(wfContext *,const UINT32,COLORREF *,UINT32 *)': cannot convert argument 3 from 'UINT32 *' to 'COLORREF *'
+  D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(649): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(759): error C2440: '=': cannot convert from 'HGDIOBJ' to 'HBRUSH'
+  D:\GitHub\FreeRDP\client\Windows\wf_gdi.c(759): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+  wf_event.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: 'STATUS_NO_SUCH_LOGON_SESSION': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: see previous definition of 'STATUS_NO_SUCH_LOGON_SESSION'
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: 'STATUS_NO_SUCH_USER': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: see previous definition of 'STATUS_NO_SUCH_USER'
+D:\GitHub\FreeRDP\client\Windows\wf_event.c(702): warning C4101: 'context': unreferenced local variable
+  wf_channels.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: 'STATUS_NO_SUCH_LOGON_SESSION': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: see previous definition of 'STATUS_NO_SUCH_LOGON_SESSION'
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: 'STATUS_NO_SUCH_USER': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: see previous definition of 'STATUS_NO_SUCH_USER'
+  wf_graphics.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: 'STATUS_NO_SUCH_LOGON_SESSION': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: see previous definition of 'STATUS_NO_SUCH_LOGON_SESSION'
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: 'STATUS_NO_SUCH_USER': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: see previous definition of 'STATUS_NO_SUCH_USER'
+D:\GitHub\FreeRDP\client\Windows\wf_graphics.c(345): error C2440: '=': cannot convert from 'BOOL (__cdecl *)(rdpContext *,const rdpPointer *)' to 'pPointer_New'
+  D:\GitHub\FreeRDP\client\Windows\wf_graphics.c(345): note: This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+D:\GitHub\FreeRDP\client\Windows\wf_graphics.c(346): error C2440: '=': cannot convert from 'BOOL (__cdecl *)(rdpContext *,rdpPointer *)' to 'pPointer_Free'
+  D:\GitHub\FreeRDP\client\Windows\wf_graphics.c(346): note: This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+  wf_cliprdr.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: 'STATUS_NO_SUCH_LOGON_SESSION': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: see previous definition of 'STATUS_NO_SUCH_LOGON_SESSION'
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: 'STATUS_NO_SUCH_USER': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: see previous definition of 'STATUS_NO_SUCH_USER'
+D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(176): error C2664: 'int IsEqualGUID(const GUID &,const GUID &)': cannot convert argument 2 from 'const IID *' to 'const GUID &'
+  D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(176): note: Reason: cannot convert from 'const IID *' to 'const GUID'
+  D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(176): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(523): error C2664: 'int IsEqualGUID(const GUID &,const GUID &)': cannot convert argument 2 from 'const IID *' to 'const GUID &'
+  D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(523): note: Reason: cannot convert from 'const IID *' to 'const GUID'
+  D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(523): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(890): error C2664: 'int IsEqualGUID(const GUID &,const GUID &)': cannot convert argument 2 from 'const IID *' to 'const GUID &'
+  D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(890): note: Reason: cannot convert from 'const IID *' to 'const GUID'
+  D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(890): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(1937): error C2440: '=': cannot convert from 'void *' to 'WCHAR *'
+  D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(1937): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(2487): error C2440: '=': cannot convert from 'void *' to 'wfClipboard *'
+  D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(2487): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(2535): error C2440: '=': cannot convert from 'UINT (__cdecl *)(CliprdrClientContext *,const CLIPRDR_FILE_CONTENTS_RESPONSE *)' to 'pcCliprdrServerFileContentsResponse'
+  D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(2535): note: This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(2550): error C2440: '=': cannot convert from 'void *' to 'wfClipboard *'
+  D:\GitHub\FreeRDP\client\Windows\wf_cliprdr.c(2550): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+  wf_rail.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: 'STATUS_NO_SUCH_LOGON_SESSION': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: see previous definition of 'STATUS_NO_SUCH_LOGON_SESSION'
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: 'STATUS_NO_SUCH_USER': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: see previous definition of 'STATUS_NO_SUCH_USER'
+D:\GitHub\FreeRDP\client\Windows\wf_rail.c(488): error C2440: '=': cannot convert from 'HANDLE' to 'HINSTANCE'
+  D:\GitHub\FreeRDP\client\Windows\wf_rail.c(488): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+D:\GitHub\FreeRDP\client\Windows\wf_rail.c(504): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 11 from 'HANDLE' to 'HINSTANCE'
+  D:\GitHub\FreeRDP\client\Windows\wf_rail.c(504): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+  wf_client.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: 'STATUS_NO_SUCH_LOGON_SESSION': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: see previous definition of 'STATUS_NO_SUCH_LOGON_SESSION'
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: 'STATUS_NO_SUCH_USER': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: see previous definition of 'STATUS_NO_SUCH_USER'
+D:\GitHub\FreeRDP\client\Windows\wf_client.c(979): error C2440: '=': cannot convert from 'BOOL (__cdecl *)(freerdp *)' to 'pPostDisconnect'
+  D:\GitHub\FreeRDP\client\Windows\wf_client.c(979): note: This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+  wf_floatbar.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: 'STATUS_NO_SUCH_LOGON_SESSION': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: see previous definition of 'STATUS_NO_SUCH_LOGON_SESSION'
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: 'STATUS_NO_SUCH_USER': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: see previous definition of 'STATUS_NO_SUCH_USER'
+  wfreerdp.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: 'STATUS_NO_SUCH_LOGON_SESSION': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: see previous definition of 'STATUS_NO_SUCH_LOGON_SESSION'
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: 'STATUS_NO_SUCH_USER': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: see previous definition of 'STATUS_NO_SUCH_USER'
+D:\GitHub\FreeRDP\client\Windows\cli\wfreerdp.c(79): error C2440: '=': cannot convert from 'void *' to 'char **'
+  D:\GitHub\FreeRDP\client\Windows\cli\wfreerdp.c(79): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+D:\GitHub\FreeRDP\client\Windows\cli\wfreerdp.c(87): error C2440: '=': cannot convert from 'void *' to 'char *'
+  D:\GitHub\FreeRDP\client\Windows\cli\wfreerdp.c(87): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+  Generating Code...

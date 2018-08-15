@@ -1,0 +1,941 @@
+﻿  passphrase.c
+  pcap.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  profiler.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  ringbuffer.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  signal.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  stopwatch.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  addin.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  assistance.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\common\assistance.c(1079): warning C4244: функция: преобразование "INT64" в "::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\common\assistance.c(1087): warning C4244: функция: преобразование "INT64" в "::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\common\assistance.c(1092): warning C4244: =: преобразование "INT64" в "::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\common\assistance.c(1106): warning C4244: функция: преобразование "INT64" в "::size_t", возможна потеря данных
+  clipping.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  dc.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  drawing.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  line.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\gdi\line.c(169): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\gdi\line.c(170): warning C4018: <: несоответствие типов со знаком и без знака
+  pen.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  shape.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  gfx.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  video.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  gdi.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  pointer.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  nine_grid.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  offscreen.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  Создание кода...
+  Компиляция...
+  palette.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  glyph.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\cache\glyph.c(201): warning C4018: >: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\cache\glyph.c(215): warning C4018: >: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\cache\glyph.c(363): warning C4018: >: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\cache\glyph.c(438): warning C4018: >: несоответствие типов со знаком и без знака
+  cache.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  er.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  der.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  ber.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\crypto\ber.c(74): warning C4267: функция: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\ber.c(81): warning C4267: функция: преобразование из "size_t" в "UINT8"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\ber.c(85): warning C4267: функция: преобразование из "size_t" в "UINT8"; возможна потеря данных
+  per.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  base64.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  crypto.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\crypto\crypto.c(238): warning C4244: инициализация: преобразование "uint64_t" в "unsigned long", возможна потеря данных
+  tls.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\crypto\tls.c(1181): warning C4090: =: разные квалификаторы "const"
+D:\GitHub\FreeRDP\libfreerdp\crypto\tls.c(1186): warning C4090: =: разные квалификаторы "const"
+D:\GitHub\FreeRDP\libfreerdp\crypto\tls.c(1191): warning C4090: =: разные квалификаторы "const"
+D:\GitHub\FreeRDP\libfreerdp\crypto\tls.c(1251): warning C4018: >=: несоответствие типов со знаком и без знака
+  opensslcompat.c
+  keyboard_layout.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  keyboard.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  locale.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  bulk.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  activation.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  gcc.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\gcc.c(1674): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\core\gcc.c(1743): warning C4018: <: несоответствие типов со знаком и без знака
+  mcs.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\mcs.c(724): warning C4267: функция: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\mcs.c(833): warning C4267: функция: преобразование из "size_t" в "UINT16"; возможна потеря данных
+  nla.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\core\nla.c(1215): warning C4018: >: несоответствие типов со знаком и без знака
+  nego.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  Создание кода...
+  Компиляция...
+  info.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\info.c(1088): warning C4018: <: несоответствие типов со знаком и без знака
+  input.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\input.c(310): warning C4244: функция: преобразование "UINT16" в "UINT8", возможна потеря данных
+  license.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\license.c(242): warning C4267: =: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\license.c(1029): warning C4267: =: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\license.c(1031): warning C4267: =: преобразование из "size_t" в "UINT16"; возможна потеря данных
+  errinfo.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  errbase.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  errconnect.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  security.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  orders.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  freerdp.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  client.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\client.c(361): warning C4018: <: несоответствие типов со знаком и без знака
+  server.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  codecs.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  metrics.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  capabilities.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\capabilities.c(155): warning C4267: =: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\capabilities.c(2731): warning C4090: функция: разные квалификаторы "const"
+D:\GitHub\FreeRDP\libfreerdp\core\capabilities.c(2824): warning C4090: функция: разные квалификаторы "const"
+D:\GitHub\FreeRDP\libfreerdp\core\capabilities.c(2830): warning C4090: функция: разные квалификаторы "const"
+D:\GitHub\FreeRDP\libfreerdp\core\capabilities.c(2851): warning C4090: функция: разные квалификаторы "const"
+D:\GitHub\FreeRDP\libfreerdp\core\capabilities.c(3952): warning C4267: =: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\capabilities.c(4183): warning C4267: =: преобразование из "size_t" в "UINT16"; возможна потеря данных
+  connection.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  redirection.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  autodetect.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  heartbeat.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  multitransport.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  timezone.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  Создание кода...
+  Компиляция...
+  rdp.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\rdp.c(345): warning C4018: >: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\core\rdp.c(541): warning C4267: =: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\rdp.c(564): warning C4267: =: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\rdp.c(594): warning C4267: функция: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\rdp.c(598): warning C4267: функция: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\rdp.c(599): warning C4267: функция: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\rdp.c(621): warning C4267: =: преобразование из "size_t" в "UINT16"; возможна потеря данных
+  tcp.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\core\tcp.c(894): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\core\tcp.c(937): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\core\tcp.c(973): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\core\tcp.c(995): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\core\tcp.c(1003): warning C4018: <: несоответствие типов со знаком и без знака
+  proxy.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\core\proxy.c(162): warning C4244: =: преобразование "long" в "UINT16", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\proxy.c(450): warning C4267: =: преобразование из "size_t" в "BYTE"; возможна потеря данных
+  tpdu.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\core\tpdu.c(107): warning C4244: функция: преобразование "UINT16" в "UINT8", возможна потеря данных
+  tpkt.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  fastpath.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\fastpath.c(258): warning C4267: =: преобразование из "size_t" в "UINT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\fastpath.c(931): warning C4267: =: преобразование из "size_t" в "UINT16"; возможна потеря данных
+  surface.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\surface.c(210): warning C4244: функция: преобразование "const UINT16" в "UINT8", возможна потеря данных
+  transport.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\transport.c(793): warning C4018: >=: несоответствие типов со знаком и без знака
+  update.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\update.c(1513): warning C4267: =: преобразование из "size_t" в "INT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\update.c(1563): warning C4267: =: преобразование из "size_t" в "INT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\update.c(1607): warning C4267: =: преобразование из "size_t" в "INT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\update.c(1648): warning C4267: =: преобразование из "size_t" в "INT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\update.c(1689): warning C4267: =: преобразование из "size_t" в "INT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\update.c(1730): warning C4267: =: преобразование из "size_t" в "INT16"; возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\update.c(1770): warning C4267: =: преобразование из "size_t" в "INT16"; возможна потеря данных
+  message.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  channels.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  window.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  listener.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\listener.c(290): warning C4018: >: несоответствие типов со знаком и без знака
+  peer.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  tsg.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  rdg.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\gateway\rdg.c(268): warning C4267: инициализация: преобразование из "size_t" в "UINT16"; возможна потеря данных
+  rpc.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  rpc_bind.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  rpc_client.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  rpc_fault.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  Создание кода...
+  Компиляция...
+  rts.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  rts_signature.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  ntlm.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  http.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\core\gateway\http.c(482): warning C4244: =: преобразование "unsigned __int64" в "::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\gateway\http.c(606): warning C4018: <: несоответствие типов со знаком и без знака
+  ncacn_http.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  dsp.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\codec\dsp.c(131): warning C4018: >=: несоответствие типов со знаком и без знака
+  color.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\codec\color.c(435): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\color.c(465): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\color.c(499): warning C4018: <: несоответствие типов со знаком и без знака
+  audio.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  planar.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\codec\planar.c(132): warning C4018: >: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\planar.c(152): warning C4018: >: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\planar.c(741): warning C4018: <: несоответствие типов со знаком и без знака
+  interleaved.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  progressive.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\codec\progressive.c(983): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\progressive.c(994): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\progressive.c(1682): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\progressive.c(1711): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\progressive.c(1744): warning C4018: <: несоответствие типов со знаком и без знака
+  rfx_decode.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  rfx_dwt.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  rfx_encode.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  rfx_quantization.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  rfx_rlgr.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.c(151): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.c(207): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.c(256): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.c(311): warning C4018: >: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.c(320): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.c(364): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.c(435): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.c(488): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.c(499): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx_rlgr.c(510): warning C4018: <: несоответствие типов со знаком и без знака
+  rfx.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx.c(271): warning C4996: 'GetVersionExA': объявлен deprecate
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\sysinfoapi.h(436): note:  см. объявление "GetVersionExA"
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx.c(1161): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx.c(1162): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx.c(1516): warning C4018: <=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx.c(1521): warning C4018: >: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx.c(1527): warning C4018: <=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx.c(1532): warning C4018: >: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\rfx.c(1756): warning C4244: функция: преобразование "UINT16" в "UINT8", возможна потеря данных
+  nsc.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  nsc_encode.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  ncrush.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  Создание кода...
+  Компиляция...
+  xcrush.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  mppc.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  zgfx.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\codec\zgfx.c(159): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\zgfx.c(247): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\zgfx.c(258): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\zgfx.c(283): warning C4018: <: несоответствие типов со знаком и без знака
+  clear.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  jpeg.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  h264.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  yuv.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\codec\yuv.c(172): warning C4018: <: несоответствие типов со знаком и без знака
+  h264_mf.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_add.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_andor.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_alphaComp.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_colors.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\primitives\prim_colors.c(295): warning C4244: функция: преобразование "const INT16" в "BYTE", возможна потеря данных
+  prim_copy.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_set.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_shift.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_sign.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_YUV.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\primitives\prim_YUV.c(627): warning C4244: return: преобразование "long" в "BYTE", возможна потеря данных
+  prim_YCoCg.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  primitives.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  Создание кода...
+  settings.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  bitmap.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\gdi\bitmap.c(398): warning C4244: функция: преобразование "INT64" в "UINT32", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\gdi\bitmap.c(411): warning C4244: функция: преобразование "INT64" в "UINT32", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\gdi\bitmap.c(424): warning C4244: функция: преобразование "INT64" в "UINT32", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\gdi\bitmap.c(437): warning C4244: функция: преобразование "INT64" в "UINT32", возможна потеря данных
+  brush.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  region.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\gdi\region.c(193): warning C4244: =: преобразование "INT64" в "UINT32", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\gdi\region.c(194): warning C4244: =: преобразование "INT64" в "UINT32", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\gdi\region.c(199): warning C4244: =: преобразование "const INT64" в "UINT32", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\gdi\region.c(204): warning C4244: =: преобразование "const INT64" в "UINT32", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\gdi\region.c(441): warning C4018: >: несоответствие типов со знаком и без знака
+  graphics.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  brush.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  bitmap.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  certificate.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(177): warning C4244: функция: преобразование "UINT64" в "::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(185): warning C4244: функция: преобразование "UINT64" в "DWORD", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(303): warning C4244: функция: преобразование "UINT64" в "::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(311): warning C4244: функция: преобразование "UINT64" в "DWORD", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(424): warning C4244: функция: преобразование "UINT64" в "::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(431): warning C4244: функция: преобразование "UINT64" в "DWORD", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(492): warning C4244: функция: преобразование "UINT64" в "::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(502): warning C4244: функция: преобразование "UINT64" в "const ::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(511): warning C4244: функция: преобразование "UINT64" в "DWORD", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(602): warning C4244: функция: преобразование "UINT64" в "::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(610): warning C4244: функция: преобразование "UINT64" в "const ::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\crypto\certificate.c(620): warning C4244: функция: преобразование "UINT64" в "DWORD", возможна потеря данных
+  settings.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+  graphics.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  certificate.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+d:\github\freerdp\libfreerdp\core\client.h(38): warning C4005: CHANNEL_MAX_COUNT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\pchannel.h(141): note: см. предыдущее определение "CHANNEL_MAX_COUNT"
+D:\GitHub\FreeRDP\libfreerdp\core\certificate.c(804): warning C4244: функция: преобразование "INT64" в "::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\certificate.c(809): warning C4244: функция: преобразование "INT64" в "::size_t", возможна потеря данных
+D:\GitHub\FreeRDP\libfreerdp\core\certificate.c(875): warning C4018: <: несоответствие типов со знаком и без знака
+  bitmap.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(511): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(512): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(513): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(514): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(515): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(522): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(525): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(526): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(804): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(805): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(806): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(807): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(808): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(815): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(818): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\codec\bitmap.c(819): warning C4018: <: несоответствие типов со знаком и без знака
+  region.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  rfx_sse2.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  nsc_sse2.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_colors_opt.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\primitives\prim_colors_opt.c(138): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\primitives\prim_colors_opt.c(251): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\primitives\prim_colors_opt.c(440): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GitHub\FreeRDP\libfreerdp\primitives\prim_colors_opt.c(687): warning C4018: <: несоответствие типов со знаком и без знака
+  prim_set_opt.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_add_opt.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_alphaComp_opt.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\libfreerdp\primitives\prim_alphaComp_opt.c(76): warning C4018: <: несоответствие типов со знаком и без знака
+  prim_andor_opt.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_shift_opt.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_sign_opt.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_YCoCg_opt.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  prim_YUV_ssse3.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+  Создание кода...
+     Создается библиотека D:/GitHub/FreeRDP/Debug/freerdp2.lib и объект D:/GitHub/FreeRDP/Debug/freerdp2.exp
+  freerdp.vcxproj -> D:\GitHub\FreeRDP\Debug\freerdp2.dll
+  freerdp.vcxproj -> D:/GitHub/FreeRDP/Debug/freerdp2.pdb (Full PDB)

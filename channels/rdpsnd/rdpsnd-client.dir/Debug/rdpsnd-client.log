@@ -1,0 +1,9 @@
+﻿  rdpsnd_main.c
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(380): warning C4005: STATUS_NO_SUCH_LOGON_SESSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(144): note: см. предыдущее определение "STATUS_NO_SUCH_LOGON_SESSION"
+D:\GitHub\FreeRDP\winpr\include\winpr/nt.h(385): warning C4005: STATUS_NO_SUCH_USER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\wincred.h(145): note: см. предыдущее определение "STATUS_NO_SUCH_USER"
+D:\GitHub\FreeRDP\channels\rdpsnd\client\rdpsnd_main.c(513): warning C4244: функция: преобразование "unsigned long" в "UINT16", возможна потеря данных
+D:\GitHub\FreeRDP\channels\rdpsnd\client\rdpsnd_main.c(802): warning C4244: =: преобразование "unsigned long" в "UINT16", возможна потеря данных
+D:\GitHub\FreeRDP\channels\rdpsnd\client\rdpsnd_main.c(820): warning C4244: =: преобразование "unsigned long" в "UINT16", возможна потеря данных
+  rdpsnd-client.vcxproj -> D:\GitHub\FreeRDP\Debug\rdpsnd-client.lib

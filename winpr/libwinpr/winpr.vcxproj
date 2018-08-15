@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6CEF80CC-1806-31DC-B31B-F03F7BA7FB5F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>winpr</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\GitHub\FreeRDP\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">winpr.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">winpr2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\GitHub\FreeRDP\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">winpr.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">winpr2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\GitHub\FreeRDP\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">winpr.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">winpr2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\GitHub\FreeRDP\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">winpr.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">winpr2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WINPR_EXPORTS;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WINPR_EXPORTS;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FreeRDP/Debug/winpr2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FreeRDP/Debug/winpr2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WINPR_EXPORTS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="Release";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WINPR_EXPORTS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FreeRDP/Release/winpr2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FreeRDP/Release/winpr2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WINPR_EXPORTS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WINPR_EXPORTS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FreeRDP/MinSizeRel/winpr2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FreeRDP/MinSizeRel/winpr2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WINPR_EXPORTS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WINPR_EXPORTS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;C:\OpenSSL-Win32\include;D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng;D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio;D:\GitHub\FreeRDP\winpr\libwinpr\utils\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FreeRDP/RelWithDebInfo/winpr2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FreeRDP/RelWithDebInfo/winpr2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\address.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\barrier.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\condition.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\critical.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\event.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\init.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\mutex.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\semaphore.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\sleep.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\srw.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\synch.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\timer.c">
+      <ObjectFileName>$(IntDir)/synch/timer.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\wait.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\locale\locale.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\library\library.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\file\generic.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\file\namedPipeClient.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\file\pattern.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\file\file.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pipe\pipe.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\pipe\pipe.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\interlocked\interlocked.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\security\security.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\environment\environment.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\hash.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\rand.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\cipher.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\cert.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\crypto.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\crypto.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\registry\registry_reg.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\registry\registry_reg.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\registry\registry.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\credentials\credentials.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\path\path.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\path\shell.c">
+      <ObjectFileName>$(IntDir)/path/shell.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\io\device.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\io\io.c">
+      <ObjectFileName>$(IntDir)/io/io.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\io\io.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\memory\memory.c">
+      <ObjectFileName>$(IntDir)/memory/memory.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\memory\memory.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\input\virtualkey.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\input\scancode.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\input\keycode.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\shell\shell.c">
+      <ObjectFileName>$(IntDir)/shell/shell.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\heap\heap.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\ini.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\sam.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\ntlm.c">
+      <ObjectFileName>$(IntDir)/utils/ntlm.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\image.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\print.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\stream.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\strlst.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\debug.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\winpr.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\cmdline.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\ssl.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\Queue.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\Stack.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\PubSub.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\BipBuffer.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\BitStream.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\Reference.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\ArrayList.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\Dictionary.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\LinkedList.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\HashTable.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\ListDictionary.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\KeyValuePair.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\CountdownEvent.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\BufferPool.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\ObjectPool.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\StreamPool.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\MessageQueue.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\MessagePipe.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng\lodepng.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng\lodepng.h" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\strio.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\trio.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\trio.h" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\triodef.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\trionan.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\trionan.h" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\triop.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\triostr.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\triostr.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\wlog.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\wlog.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Layout.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Layout.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Message.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Message.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\TextMessage.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\DataMessage.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\DataMessage.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\ImageMessage.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\ImageMessage.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\PacketMessage.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\PacketMessage.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Appender.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Appender.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\FileAppender.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\FileAppender.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\BinaryAppender.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\BinaryAppender.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\CallbackAppender.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\CallbackAppender.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\ConsoleAppender.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\ConsoleAppender.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\UdpAppender.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\UdpAppender.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\error\error.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\com\com.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\timezone\timezone.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sysinfo\sysinfo.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\synch.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\work.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\timer.c">
+      <ObjectFileName>$(IntDir)/pool/timer.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\io.c">
+      <ObjectFileName>$(IntDir)/pool/io.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\cleanup_group.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\pool.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\pool.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\callback.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\callback_cleanup.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\handle\handle.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\handle\handle.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\handle\nonehandle.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\handle\nonehandle.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\argv.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\process.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\processor.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\thread.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\thread.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\tls.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\winsock\winsock.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\CredSSP\credssp.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\CredSSP\credssp.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_compute.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_compute.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_message.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_message.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm.c">
+      <ObjectFileName>$(IntDir)/sspi/NTLM/ntlm.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Kerberos\kerberos.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Kerberos\kerberos.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Negotiate\negotiate.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Negotiate\negotiate.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Schannel\schannel_openssl.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Schannel\schannel_openssl.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Schannel\schannel.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Schannel\schannel.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi_winpr.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi_winpr.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi_export.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi_gss.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi_gss.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\winhttp\winhttp.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\asn1\asn1.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspicli\sspicli.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\alignment.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\conversion.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\buffer.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\memory.c">
+      <ObjectFileName>$(IntDir)/crt/memory.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\unicode.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\string.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\utf.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\utf.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\bcrypt\bcrypt.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\rpc.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_array.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_array.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_context.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_context.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_correlation.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_correlation.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_pointer.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_pointer.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_private.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_private.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_simple.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_simple.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_string.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_string.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_structure.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_structure.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_union.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_union.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\midl.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\credui\credui.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\wtsapi\wtsapi.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\wtsapi\wtsapi_win32.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\wtsapi\wtsapi_win32.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\dsparse\dsparse.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\wnd\wnd.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\wnd\wnd.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_pcsc.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_pcsc.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_inspect.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_inspect.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_winscard.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_winscard.h" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\nt\nt.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\clipboard\synthetic.c" />
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\clipboard\clipboard.c" />
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\clipboard\clipboard.h" />
+    <ResourceCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

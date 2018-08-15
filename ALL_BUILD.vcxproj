@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43150125-4D1D-3331-97B4-988CC08FCDBD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;D:\GitHub\FreeRDP\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;D:\GitHub\FreeRDP\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;D:\GitHub\FreeRDP\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FreeRDP;D:\GitHub\FreeRDP\include;D:\GitHub\FreeRDP\winpr\include;D:\GitHub\FreeRDP\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\audin\client\audin-client.vcxproj">
+      <Project>{72F4158F-11FF-3546-AA76-56D8F6790827}</Project>
+      <Name>audin-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\audin\client\winmm\audin-client-winmm.vcxproj">
+      <Project>{C5649837-71C5-3CAF-91E4-928E07BE16A3}</Project>
+      <Name>audin-client-winmm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\cliprdr\client\cliprdr-client.vcxproj">
+      <Project>{39589ED8-0534-3555-94D3-A0047FD58928}</Project>
+      <Name>cliprdr-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\disp\client\disp-client.vcxproj">
+      <Project>{6D98330D-2444-3E81-AC46-DCCAC2EB3174}</Project>
+      <Name>disp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\drdynvc\client\drdynvc-client.vcxproj">
+      <Project>{6870A7AC-3DB6-3B06-A45B-23E7639BBB70}</Project>
+      <Name>drdynvc-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\drive\client\drive-client.vcxproj">
+      <Project>{6D0B86FE-5E41-3742-BD20-2BFBDAC6BF64}</Project>
+      <Name>drive-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\echo\client\echo-client.vcxproj">
+      <Project>{96580543-A2A1-3303-A8BE-3AA4652B7747}</Project>
+      <Name>echo-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\encomsp\client\encomsp-client.vcxproj">
+      <Project>{9D64B268-C4B1-3599-AD7B-A82A8672F698}</Project>
+      <Name>encomsp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\libfreerdp\freerdp.vcxproj">
+      <Project>{D9CEE91F-AF47-315B-A6F9-3582C0EE6BBE}</Project>
+      <Name>freerdp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\client\common\freerdp-client.vcxproj">
+      <Project>{63FB1EAB-66FA-3ED1-B3FF-DE7105AE2FE2}</Project>
+      <Name>freerdp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\geometry\client\geometry-client.vcxproj">
+      <Project>{4BA7B3F3-F0D2-3A08-BC41-F2EAC9EC81B7}</Project>
+      <Name>geometry-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\printer\client\printer-client.vcxproj">
+      <Project>{CE42F152-45C2-3920-A8C2-C9456140B6EB}</Project>
+      <Name>printer-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\rail\client\rail-client.vcxproj">
+      <Project>{04219BDB-64C0-3FE0-8289-B380CD7CB560}</Project>
+      <Name>rail-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\rdpdr\client\rdpdr-client.vcxproj">
+      <Project>{BE473166-9504-3F23-85E3-AA5FB728C8EB}</Project>
+      <Name>rdpdr-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\rdpei\client\rdpei-client.vcxproj">
+      <Project>{2880C5C5-BC31-3017-8331-B39B7EA04884}</Project>
+      <Name>rdpei-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\rdpgfx\client\rdpgfx-client.vcxproj">
+      <Project>{0A7A5A95-FA68-3686-ADA7-6E333C1414FE}</Project>
+      <Name>rdpgfx-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\rdpsnd\client\rdpsnd-client.vcxproj">
+      <Project>{E8F01326-54A6-3048-9D5F-29EBA3DDE120}</Project>
+      <Name>rdpsnd-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\rdpsnd\client\fake\rdpsnd-client-fake.vcxproj">
+      <Project>{A1F04618-2911-3804-9239-45890F3C7104}</Project>
+      <Name>rdpsnd-client-fake</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\rdpsnd\client\winmm\rdpsnd-client-winmm.vcxproj">
+      <Project>{A5C22045-B4C5-3497-91E1-0EEC9ABE62F4}</Project>
+      <Name>rdpsnd-client-winmm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\rdtk\librdtk\rdtk.vcxproj">
+      <Project>{C4F554EF-0DD1-328B-B100-6445D33A0B5A}</Project>
+      <Name>rdtk</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\remdesk\client\remdesk-client.vcxproj">
+      <Project>{7B0E5F6C-CAE4-389D-9A8E-F328B2F48FBF}</Project>
+      <Name>remdesk-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\smartcard\client\smartcard-client.vcxproj">
+      <Project>{9CB4B42C-CBA0-30D1-844D-F4311C40DF9A}</Project>
+      <Name>smartcard-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\channels\video\client\video-client.vcxproj">
+      <Project>{C0B9D0CF-C6F8-3FD0-922D-7E02E1B6550E}</Project>
+      <Name>video-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\client\Windows\wfreerdp-client.vcxproj">
+      <Project>{91A8E9B0-EBD9-3DE9-8144-F20A4DDA7E03}</Project>
+      <Name>wfreerdp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\winpr\libwinpr\winpr.vcxproj">
+      <Project>{6CEF80CC-1806-31DC-B31B-F03F7BA7FB5F}</Project>
+      <Name>winpr</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\winpr\tools\hash-cli\winpr-hash.vcxproj">
+      <Project>{48A11AE8-DDC4-3432-8CCB-BD715795F890}</Project>
+      <Name>winpr-hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\winpr\tools\makecert-cli\winpr-makecert.vcxproj">
+      <Project>{3492F2A7-77D2-3261-9874-43F0315A672F}</Project>
+      <Name>winpr-makecert</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FreeRDP\winpr\tools\winpr-tools.vcxproj">
+      <Project>{CD776501-FD9C-3535-9A11-5DA8D7713FAB}</Project>
+      <Name>winpr-tools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

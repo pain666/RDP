@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/CMake/share/cmake-3.12/Modules/CMakeDependentOption.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.12/Modules/CMakeParseArguments.cmake
+D:/GitHub/FreeRDP/channels/CMakeLists.txt
+D:/GitHub/FreeRDP/channels/audin/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/cliprdr/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/disp/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/drdynvc/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/drive/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/echo/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/encomsp/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/geometry/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/parallel/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/printer/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/rail/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/rdpdr/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/rdpei/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/rdpgfx/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/rdpsnd/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/remdesk/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/serial/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/smartcard/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/sshagent/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/tsmf/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/urbdrc/ChannelOptions.cmake
+D:/GitHub/FreeRDP/channels/video/ChannelOptions.cmake

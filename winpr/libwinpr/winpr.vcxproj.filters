@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\address.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\barrier.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\condition.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\critical.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\event.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\init.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\mutex.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\semaphore.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\sleep.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\srw.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\timer.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\wait.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\locale\locale.c">
+      <Filter>locale</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\library\library.c">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\file\generic.c">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\file\namedPipeClient.c">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\file\pattern.c">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\file\file.c">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pipe\pipe.c">
+      <Filter>pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\interlocked\interlocked.c">
+      <Filter>interlocked</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\security\security.c">
+      <Filter>security</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\environment\environment.c">
+      <Filter>nt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\hash.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\rand.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\cipher.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\cert.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\crypto.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\registry\registry_reg.c">
+      <Filter>registry</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\registry\registry.c">
+      <Filter>registry</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\credentials\credentials.c">
+      <Filter>credentials</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\path\path.c">
+      <Filter>path</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\path\shell.c">
+      <Filter>path</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\io\device.c">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\io\io.c">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\memory\memory.c">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\input\virtualkey.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\input\scancode.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\input\keycode.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\shell\shell.c">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\heap\heap.c">
+      <Filter>heap</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\ini.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\sam.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\ntlm.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\image.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\print.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\stream.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\strlst.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\debug.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\winpr.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\cmdline.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\ssl.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\Queue.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\Stack.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\PubSub.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\BipBuffer.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\BitStream.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\Reference.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\ArrayList.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\Dictionary.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\LinkedList.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\HashTable.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\ListDictionary.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\KeyValuePair.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\CountdownEvent.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\BufferPool.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\ObjectPool.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\StreamPool.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\MessageQueue.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\collections\MessagePipe.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng\lodepng.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\trio.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\trionan.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\triostr.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\wlog.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Layout.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Message.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\TextMessage.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\DataMessage.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\ImageMessage.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\PacketMessage.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Appender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\FileAppender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\BinaryAppender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\CallbackAppender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\ConsoleAppender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\UdpAppender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\error\error.c">
+      <Filter>error</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\com\com.c">
+      <Filter>com</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\timezone\timezone.c">
+      <Filter>timezone</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sysinfo\sysinfo.c">
+      <Filter>sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\synch.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\work.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\timer.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\io.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\cleanup_group.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\pool.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\callback.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\callback_cleanup.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\handle\handle.c">
+      <Filter>handle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\handle\nonehandle.c">
+      <Filter>handle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\argv.c">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\process.c">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\processor.c">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\thread.c">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\tls.c">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\winsock\winsock.c">
+      <Filter>winsock</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\CredSSP\credssp.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_compute.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_message.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Kerberos\kerberos.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Negotiate\negotiate.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Schannel\schannel_openssl.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Schannel\schannel.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi_winpr.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi_export.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi_gss.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\winhttp\winhttp.c">
+      <Filter>winhttp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\asn1\asn1.c">
+      <Filter>asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspicli\sspicli.c">
+      <Filter>sspicli</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\alignment.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\conversion.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\buffer.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\memory.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\unicode.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\string.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\utf.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\bcrypt\bcrypt.c">
+      <Filter>bcrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\rpc.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_array.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_context.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_correlation.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_pointer.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_private.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_simple.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_string.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_structure.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_union.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\midl.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\credui\credui.c">
+      <Filter>credui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\wtsapi\wtsapi.c">
+      <Filter>wtsapi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\wtsapi\wtsapi_win32.c">
+      <Filter>wtsapi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\dsparse\dsparse.c">
+      <Filter>dsparse</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\wnd\wnd.c">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard.c">
+      <Filter>smartcard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_pcsc.c">
+      <Filter>smartcard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_inspect.c">
+      <Filter>smartcard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_winscard.c">
+      <Filter>smartcard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\nt\nt.c">
+      <Filter>nt</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\clipboard\synthetic.c">
+      <Filter>clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\clipboard\clipboard.c">
+      <Filter>clipboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\synch\synch.h">
+      <Filter>synch</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\pipe\pipe.h">
+      <Filter>pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\crypto\crypto.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\registry\registry_reg.h">
+      <Filter>registry</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\io\io.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\memory\memory.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\lodepng\lodepng.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\strio.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\trio.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\triodef.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\trionan.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\triop.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\trio\triostr.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\wlog.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Layout.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Message.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\DataMessage.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\ImageMessage.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\PacketMessage.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\Appender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\FileAppender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\BinaryAppender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\CallbackAppender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\ConsoleAppender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\utils\wlog\UdpAppender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\pool\pool.h">
+      <Filter>pool</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\handle\handle.h">
+      <Filter>handle</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\handle\nonehandle.h">
+      <Filter>handle</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\thread\thread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\CredSSP\credssp.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_compute.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm_message.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\NTLM\ntlm.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Kerberos\kerberos.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Negotiate\negotiate.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Schannel\schannel_openssl.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\Schannel\schannel.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi_winpr.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi_gss.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\sspi\sspi.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\crt\utf.h">
+      <Filter>crt</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_array.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_context.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_correlation.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_pointer.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_private.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_simple.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_string.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_structure.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\rpc\ndr_union.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\wtsapi\wtsapi_win32.h">
+      <Filter>wtsapi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\wnd\wnd.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard.h">
+      <Filter>smartcard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_pcsc.h">
+      <Filter>smartcard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_inspect.h">
+      <Filter>smartcard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\smartcard\smartcard_winscard.h">
+      <Filter>smartcard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FreeRDP\winpr\libwinpr\clipboard\clipboard.h">
+      <Filter>clipboard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\GitHub\FreeRDP\winpr\libwinpr\version.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A899640F-ECAE-3163-B907-1EF18CB362F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asn1">
+      <UniqueIdentifier>{45C6711A-5AA7-33FB-9C2B-4B090596B97A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bcrypt">
+      <UniqueIdentifier>{C2E8593F-7BD7-30FC-A596-026B5BC2685A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clipboard">
+      <UniqueIdentifier>{D16480DC-D5D0-35A5-8DB6-112E0A69F55C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="com">
+      <UniqueIdentifier>{87ABAB7A-BB9E-38FA-880E-4D43306D0565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="credentials">
+      <UniqueIdentifier>{C2C77656-2256-3429-A845-1291007A54AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="credui">
+      <UniqueIdentifier>{78CDF2C4-A624-3FA0-945C-FE76E368AFB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crt">
+      <UniqueIdentifier>{BF6D2C89-8253-3521-A74A-A8CDA456ADC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{A8878A6A-6134-32CA-A9B1-3A044D35A86E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dsparse">
+      <UniqueIdentifier>{F83ADF01-D56F-3429-B203-9905A4C7923F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="error">
+      <UniqueIdentifier>{F3CCE8F4-5048-3475-8D96-5823CF0165BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{F1D2E5CE-C846-3DB2-AACD-5C1794BF10C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handle">
+      <UniqueIdentifier>{CAEC75FD-CEB1-3439-BF29-7BAEA705DAD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="heap">
+      <UniqueIdentifier>{6B3D7111-1F03-3F93-985F-DAECFBCCB162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{0D5FD764-BBAC-361C-AF83-9B758B08F4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interlocked">
+      <UniqueIdentifier>{8CDF49F5-8B4C-32FF-91A2-65A0DBA632A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{B2EF433E-E0AB-3ECB-8B08-2B0E685324C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{7D9C61EE-5219-3D2E-A2E8-4B306E38E5FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="locale">
+      <UniqueIdentifier>{91E76B8B-B88C-3850-A0B5-F192B06C9F93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{46AE1FC8-11CA-3E60-BFDE-F040122973B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nt">
+      <UniqueIdentifier>{0C2F278F-8250-3358-AC90-5640EE3FA6FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="path">
+      <UniqueIdentifier>{EA4BACE8-2D74-3431-93CF-82275D7ACC67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipe">
+      <UniqueIdentifier>{F5911885-42CF-3B57-A735-E6F509E6CCFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pool">
+      <UniqueIdentifier>{31E5078E-5EC4-3341-9F41-6BDFB1919890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="registry">
+      <UniqueIdentifier>{0799286E-6228-35FF-8857-232D9D26FF92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rpc">
+      <UniqueIdentifier>{A6BB9FF3-EFF7-3E79-9DBD-B4F7ACAAE619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{C569619B-FC10-36FD-81D0-50C7A48261DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell">
+      <UniqueIdentifier>{04B5BD15-E238-3F67-ADCE-08FE4C82C155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="smartcard">
+      <UniqueIdentifier>{879099CD-C738-3F7C-8BA1-C2C3771DA1A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sspi">
+      <UniqueIdentifier>{C0629DF9-7F70-32CA-AEC9-05AA0DD6AF8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sspicli">
+      <UniqueIdentifier>{D32BC891-6DE0-3DBC-9410-CDBB6038F07F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="synch">
+      <UniqueIdentifier>{4A5724FA-C22A-33B9-A8FA-10F02A47052D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sysinfo">
+      <UniqueIdentifier>{4C805C93-F1CD-3FEB-BAFF-4E1E737CFE83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{1CC39013-01ED-399D-AEC1-2DA613F4843D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timezone">
+      <UniqueIdentifier>{4DB6A9DD-5667-3C3B-B8F4-2D522E2A9F49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{E67F574D-FB14-35C3-B65D-4E554B749605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="winhttp">
+      <UniqueIdentifier>{B6EEA088-9627-3782-8780-E22631B3144B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="winsock">
+      <UniqueIdentifier>{FBFFEC90-8936-326E-95D7-529B4370B5EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wnd">
+      <UniqueIdentifier>{EC9955FE-D2FE-3E25-8D02-7C51676B7685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wtsapi">
+      <UniqueIdentifier>{49CA4754-0B1C-3909-875C-757A26B4F33A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
