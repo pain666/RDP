@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{72DB73EE-70A1-3FFF-BF66-0075EAA0494E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)\channels\audin\client\audin-client.vcxproj">
+      <Project>{C31C554A-4458-3492-BB4E-B7BA13A85896}</Project>
+      <Name>audin-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\audin\client\winmm\audin-client-winmm.vcxproj">
+      <Project>{EB9F2422-E213-3A53-8537-5817A3548016}</Project>
+      <Name>audin-client-winmm</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\cliprdr\client\cliprdr-client.vcxproj">
+      <Project>{24F42DD9-58CD-3BEE-8F21-47C7F0BF41B9}</Project>
+      <Name>cliprdr-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\disp\client\disp-client.vcxproj">
+      <Project>{C883C92D-0F07-321A-847C-03BB45FF963F}</Project>
+      <Name>disp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\drdynvc\client\drdynvc-client.vcxproj">
+      <Project>{EDC0AF1B-9140-33C5-B85E-21BC5F498507}</Project>
+      <Name>drdynvc-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\drive\client\drive-client.vcxproj">
+      <Project>{09C749DE-F35C-3210-AB61-EA1C9C30C2DF}</Project>
+      <Name>drive-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\echo\client\echo-client.vcxproj">
+      <Project>{C82F822B-186C-3F28-AA2E-EE5E702AAB0E}</Project>
+      <Name>echo-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\encomsp\client\encomsp-client.vcxproj">
+      <Project>{F02DA192-8A67-33E6-85CF-111C65A78CFC}</Project>
+      <Name>encomsp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\libfreerdp\freerdp.vcxproj">
+      <Project>{74F34DD4-5EDC-3BDF-9433-A4D5A5152B32}</Project>
+      <Name>freerdp</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\client\common\freerdp-client.vcxproj">
+      <Project>{41ABFC0C-7B84-344B-B0D8-885A1098C01E}</Project>
+      <Name>freerdp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\geometry\client\geometry-client.vcxproj">
+      <Project>{7EAD7FFE-E976-33A9-91C9-8469104245DB}</Project>
+      <Name>geometry-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\printer\client\printer-client.vcxproj">
+      <Project>{3DFA8286-D4C0-3400-AAD4-B879EAC345C5}</Project>
+      <Name>printer-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rail\client\rail-client.vcxproj">
+      <Project>{AD3A65C4-BC3D-3CBE-800C-AB40E67718CC}</Project>
+      <Name>rail-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpdr\client\rdpdr-client.vcxproj">
+      <Project>{3D31FE39-88FF-3AB1-8575-1927EC68308C}</Project>
+      <Name>rdpdr-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpei\client\rdpei-client.vcxproj">
+      <Project>{02D3EEE4-13E9-3AAF-A314-917107CD3550}</Project>
+      <Name>rdpei-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpgfx\client\rdpgfx-client.vcxproj">
+      <Project>{17CEF496-7EF4-3671-8877-6BD5F74292D9}</Project>
+      <Name>rdpgfx-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpsnd\client\rdpsnd-client.vcxproj">
+      <Project>{ABD31983-4CE8-3A08-BF7C-13EE82AA48E2}</Project>
+      <Name>rdpsnd-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpsnd\client\fake\rdpsnd-client-fake.vcxproj">
+      <Project>{AFE2F405-1F27-356F-8960-4361E7CD2C8A}</Project>
+      <Name>rdpsnd-client-fake</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpsnd\client\winmm\rdpsnd-client-winmm.vcxproj">
+      <Project>{95B8D1E8-D34C-3C61-8CB8-FC9BEEBD8F4D}</Project>
+      <Name>rdpsnd-client-winmm</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\rdtk\librdtk\rdtk.vcxproj">
+      <Project>{0064267A-6CAC-30B7-9B29-F18C8E4C9DB5}</Project>
+      <Name>rdtk</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\remdesk\client\remdesk-client.vcxproj">
+      <Project>{44F2B05E-A329-3BD3-82B7-AE109E3833E1}</Project>
+      <Name>remdesk-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\smartcard\client\smartcard-client.vcxproj">
+      <Project>{BBB7A2E1-9356-3B2D-96E7-A5283A76BE3B}</Project>
+      <Name>smartcard-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\video\client\video-client.vcxproj">
+      <Project>{16266A00-A343-334B-9631-724882F14973}</Project>
+      <Name>video-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\client\Windows\wfreerdp-client.vcxproj">
+      <Project>{352DD91F-B7E8-3086-81BF-6B5254E341A9}</Project>
+      <Name>wfreerdp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\winpr\libwinpr\winpr.vcxproj">
+      <Project>{25A02BD2-E6CA-3248-86D6-0A18B3EF81AF}</Project>
+      <Name>winpr</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\winpr\tools\hash-cli\winpr-hash.vcxproj">
+      <Project>{B593F5DD-9620-3313-806F-E69AAC333EFA}</Project>
+      <Name>winpr-hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\winpr\tools\makecert-cli\winpr-makecert.vcxproj">
+      <Project>{FE2D332D-9E27-33CE-886B-F06E3D5C3D36}</Project>
+      <Name>winpr-makecert</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\winpr\tools\winpr-tools.vcxproj">
+      <Project>{62F9DA80-41C3-3456-B4F1-037F99D5DF01}</Project>
+      <Name>winpr-tools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
