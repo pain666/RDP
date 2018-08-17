@@ -117,8 +117,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Projects/RDP/RDP/Debug/wfreerdp.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Projects/RDP/RDP/Debug/wfreerdp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)Debug/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)Debug/wfreerdp.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -161,8 +161,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Projects/RDP/RDP/Release/wfreerdp.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Projects/RDP/RDP/Release/wfreerdp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)Release/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)Release/wfreerdp.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -205,8 +205,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Projects/RDP/RDP/MinSizeRel/wfreerdp.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Projects/RDP/RDP/MinSizeRel/wfreerdp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)MinSizeRel/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)MinSizeRel/wfreerdp.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -248,8 +248,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Projects/RDP/RDP/RelWithDebInfo/wfreerdp.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Projects/RDP/RDP/RelWithDebInfo/wfreerdp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)RelWithDebInfo/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)RelWithDebInfo/wfreerdp.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
