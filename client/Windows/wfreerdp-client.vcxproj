@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{352DD91F-B7E8-3086-81BF-6B5254E341A9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>wfreerdp-client</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">wfreerdp-client.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">wfreerdp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">wfreerdp-client.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">wfreerdp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">wfreerdp-client.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">wfreerdp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">wfreerdp-client.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">wfreerdp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Debug\freerdp-client2.lib;..\..\Debug\freerdp2.lib;..\..\Debug\winpr2.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;gdiplus.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)Debug/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)Debug/wfreerdp.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Release\freerdp-client2.lib;..\..\Release\freerdp2.lib;..\..\Release\winpr2.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)Release/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)Release/wfreerdp.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\MinSizeRel\freerdp-client2.lib;..\..\MinSizeRel\freerdp2.lib;..\..\MinSizeRel\winpr2.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)MinSizeRel/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)MinSizeRel/wfreerdp.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\client\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\RelWithDebInfo\freerdp-client2.lib;..\..\RelWithDebInfo\freerdp2.lib;..\..\RelWithDebInfo\winpr2.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)RelWithDebInfo/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)RelWithDebInfo/wfreerdp.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)\client\Windows\wf_gdi.c" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\wf_gdi.h" />
+    <ClCompile Include="$(SolutionDir)\client\Windows\wf_event.c" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\wf_event.h" />
+    <ClCompile Include="$(SolutionDir)\client\Windows\wf_channels.c" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\wf_channels.h" />
+    <ClCompile Include="$(SolutionDir)\client\Windows\wf_graphics.c" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\wf_graphics.h" />
+    <ClCompile Include="$(SolutionDir)\client\Windows\wf_cliprdr.c" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\wf_cliprdr.h" />
+    <ClCompile Include="$(SolutionDir)\client\Windows\wf_rail.c" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\wf_rail.h" />
+    <ClCompile Include="$(SolutionDir)\client\Windows\wf_client.c" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\wf_client.h" />
+    <ClCompile Include="$(SolutionDir)\client\Windows\wf_floatbar.c" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\wf_floatbar.h" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\GdiImageDumper.h" />
+    <ResourceCompile Include="$(SolutionDir)\client\Windows\wfreerdp.rc" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\resource.h" />
+    <ResourceCompile Include="$(SolutionDir)\client\Windows\version.rc" />
+    <ClCompile Include="$(SolutionDir)\client\Windows\cli\wfreerdp.c" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\cli\wfreerdp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)\libfreerdp\freerdp.vcxproj">
+      <Project>{74F34DD4-5EDC-3BDF-9433-A4D5A5152B32}</Project>
+      <Name>freerdp</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\client\common\freerdp-client.vcxproj">
+      <Project>{41ABFC0C-7B84-344B-B0D8-885A1098C01E}</Project>
+      <Name>freerdp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\winpr\libwinpr\winpr.vcxproj">
+      <Project>{25A02BD2-E6CA-3248-86D6-0A18B3EF81AF}</Project>
+      <Name>winpr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

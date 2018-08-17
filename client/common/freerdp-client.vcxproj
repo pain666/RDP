@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{41ABFC0C-7B84-344B-B0D8-885A1098C01E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>freerdp-client</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">freerdp-client.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">freerdp-client2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">freerdp-client.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">freerdp-client2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">freerdp-client.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">freerdp-client2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">freerdp-client.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">freerdp-client2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";freerdp_client_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";freerdp_client_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Debug\audin-client.lib;..\..\Debug\disp-client.lib;..\..\Debug\echo-client.lib;..\..\Debug\geometry-client.lib;..\..\Debug\rdpei-client.lib;..\..\Debug\rdpgfx-client.lib;..\..\Debug\video-client.lib;..\..\Debug\cliprdr-client.lib;..\..\Debug\drdynvc-client.lib;..\..\Debug\encomsp-client.lib;..\..\Debug\rail-client.lib;..\..\Debug\rdpdr-client.lib;..\..\Debug\rdpsnd-client.lib;..\..\Debug\remdesk-client.lib;..\..\Debug\drive-client.lib;..\..\Debug\printer-client.lib;..\..\Debug\smartcard-client.lib;..\..\Debug\audin-client-winmm.lib;..\..\Debug\rdpsnd-client-winmm.lib;..\..\Debug\rdpsnd-client-fake.lib;..\..\Debug\freerdp2.lib;..\..\Debug\winpr2.lib;winmm.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)Debug/freerdp-client2.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)Debug/freerdp-client2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="Release";freerdp_client_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\";freerdp_client_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Release\audin-client.lib;..\..\Release\disp-client.lib;..\..\Release\echo-client.lib;..\..\Release\geometry-client.lib;..\..\Release\rdpei-client.lib;..\..\Release\rdpgfx-client.lib;..\..\Release\video-client.lib;..\..\Release\cliprdr-client.lib;..\..\Release\drdynvc-client.lib;..\..\Release\encomsp-client.lib;..\..\Release\rail-client.lib;..\..\Release\rdpdr-client.lib;..\..\Release\rdpsnd-client.lib;..\..\Release\remdesk-client.lib;..\..\Release\drive-client.lib;..\..\Release\printer-client.lib;..\..\Release\smartcard-client.lib;..\..\Release\audin-client-winmm.lib;..\..\Release\rdpsnd-client-winmm.lib;..\..\Release\rdpsnd-client-fake.lib;..\..\Release\freerdp2.lib;..\..\Release\winpr2.lib;winmm.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)Release/freerdp-client2.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)Release/freerdp-client2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel";freerdp_client_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";freerdp_client_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\MinSizeRel\audin-client.lib;..\..\MinSizeRel\disp-client.lib;..\..\MinSizeRel\echo-client.lib;..\..\MinSizeRel\geometry-client.lib;..\..\MinSizeRel\rdpei-client.lib;..\..\MinSizeRel\rdpgfx-client.lib;..\..\MinSizeRel\video-client.lib;..\..\MinSizeRel\cliprdr-client.lib;..\..\MinSizeRel\drdynvc-client.lib;..\..\MinSizeRel\encomsp-client.lib;..\..\MinSizeRel\rail-client.lib;..\..\MinSizeRel\rdpdr-client.lib;..\..\MinSizeRel\rdpsnd-client.lib;..\..\MinSizeRel\remdesk-client.lib;..\..\MinSizeRel\drive-client.lib;..\..\MinSizeRel\printer-client.lib;..\..\MinSizeRel\smartcard-client.lib;..\..\MinSizeRel\audin-client-winmm.lib;..\..\MinSizeRel\rdpsnd-client-winmm.lib;..\..\MinSizeRel\rdpsnd-client-fake.lib;..\..\MinSizeRel\freerdp2.lib;..\..\MinSizeRel\winpr2.lib;winmm.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)MinSizeRel/freerdp-client2.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)MinSizeRel/freerdp-client2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";freerdp_client_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_X86_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_WINSOCK_DEPRECATED_NO_WARNINGS;WINVER=0x0501;_WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";freerdp_client_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\include;$(SolutionDir)\winpr\include;$(SolutionDir)\rdtk\include;$(SolutionDir)\channels\client;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\RelWithDebInfo\audin-client.lib;..\..\RelWithDebInfo\disp-client.lib;..\..\RelWithDebInfo\echo-client.lib;..\..\RelWithDebInfo\geometry-client.lib;..\..\RelWithDebInfo\rdpei-client.lib;..\..\RelWithDebInfo\rdpgfx-client.lib;..\..\RelWithDebInfo\video-client.lib;..\..\RelWithDebInfo\cliprdr-client.lib;..\..\RelWithDebInfo\drdynvc-client.lib;..\..\RelWithDebInfo\encomsp-client.lib;..\..\RelWithDebInfo\rail-client.lib;..\..\RelWithDebInfo\rdpdr-client.lib;..\..\RelWithDebInfo\rdpsnd-client.lib;..\..\RelWithDebInfo\remdesk-client.lib;..\..\RelWithDebInfo\drive-client.lib;..\..\RelWithDebInfo\printer-client.lib;..\..\RelWithDebInfo\smartcard-client.lib;..\..\RelWithDebInfo\audin-client-winmm.lib;..\..\RelWithDebInfo\rdpsnd-client-winmm.lib;..\..\RelWithDebInfo\rdpsnd-client-fake.lib;..\..\RelWithDebInfo\freerdp2.lib;..\..\RelWithDebInfo\winpr2.lib;winmm.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)RelWithDebInfo/freerdp-client2.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)RelWithDebInfo/freerdp-client2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)\client\common\client.c" />
+    <ClCompile Include="$(SolutionDir)\client\common\cmdline.c" />
+    <ClCompile Include="$(SolutionDir)\client\common\compatibility.c" />
+    <ClInclude Include="$(SolutionDir)\client\common\compatibility.h" />
+    <ClCompile Include="$(SolutionDir)\client\common\file.c" />
+    <ClCompile Include="$(SolutionDir)\channels\client\tables.c" />
+    <ClInclude Include="$(SolutionDir)\channels\client\tables.h" />
+    <ClCompile Include="$(SolutionDir)\channels\client\addin.c" />
+    <ClInclude Include="$(SolutionDir)\channels\client\addin.h" />
+    <ResourceCompile Include="$(SolutionDir)\client\common\version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)\channels\audin\client\audin-client.vcxproj">
+      <Project>{C31C554A-4458-3492-BB4E-B7BA13A85896}</Project>
+      <Name>audin-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\audin\client\winmm\audin-client-winmm.vcxproj">
+      <Project>{EB9F2422-E213-3A53-8537-5817A3548016}</Project>
+      <Name>audin-client-winmm</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\cliprdr\client\cliprdr-client.vcxproj">
+      <Project>{24F42DD9-58CD-3BEE-8F21-47C7F0BF41B9}</Project>
+      <Name>cliprdr-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\disp\client\disp-client.vcxproj">
+      <Project>{C883C92D-0F07-321A-847C-03BB45FF963F}</Project>
+      <Name>disp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\drdynvc\client\drdynvc-client.vcxproj">
+      <Project>{EDC0AF1B-9140-33C5-B85E-21BC5F498507}</Project>
+      <Name>drdynvc-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\drive\client\drive-client.vcxproj">
+      <Project>{09C749DE-F35C-3210-AB61-EA1C9C30C2DF}</Project>
+      <Name>drive-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\echo\client\echo-client.vcxproj">
+      <Project>{C82F822B-186C-3F28-AA2E-EE5E702AAB0E}</Project>
+      <Name>echo-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\encomsp\client\encomsp-client.vcxproj">
+      <Project>{F02DA192-8A67-33E6-85CF-111C65A78CFC}</Project>
+      <Name>encomsp-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\libfreerdp\freerdp.vcxproj">
+      <Project>{74F34DD4-5EDC-3BDF-9433-A4D5A5152B32}</Project>
+      <Name>freerdp</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\geometry\client\geometry-client.vcxproj">
+      <Project>{7EAD7FFE-E976-33A9-91C9-8469104245DB}</Project>
+      <Name>geometry-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\printer\client\printer-client.vcxproj">
+      <Project>{3DFA8286-D4C0-3400-AAD4-B879EAC345C5}</Project>
+      <Name>printer-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rail\client\rail-client.vcxproj">
+      <Project>{AD3A65C4-BC3D-3CBE-800C-AB40E67718CC}</Project>
+      <Name>rail-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpdr\client\rdpdr-client.vcxproj">
+      <Project>{3D31FE39-88FF-3AB1-8575-1927EC68308C}</Project>
+      <Name>rdpdr-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpei\client\rdpei-client.vcxproj">
+      <Project>{02D3EEE4-13E9-3AAF-A314-917107CD3550}</Project>
+      <Name>rdpei-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpgfx\client\rdpgfx-client.vcxproj">
+      <Project>{17CEF496-7EF4-3671-8877-6BD5F74292D9}</Project>
+      <Name>rdpgfx-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpsnd\client\rdpsnd-client.vcxproj">
+      <Project>{ABD31983-4CE8-3A08-BF7C-13EE82AA48E2}</Project>
+      <Name>rdpsnd-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpsnd\client\fake\rdpsnd-client-fake.vcxproj">
+      <Project>{AFE2F405-1F27-356F-8960-4361E7CD2C8A}</Project>
+      <Name>rdpsnd-client-fake</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\rdpsnd\client\winmm\rdpsnd-client-winmm.vcxproj">
+      <Project>{95B8D1E8-D34C-3C61-8CB8-FC9BEEBD8F4D}</Project>
+      <Name>rdpsnd-client-winmm</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\remdesk\client\remdesk-client.vcxproj">
+      <Project>{44F2B05E-A329-3BD3-82B7-AE109E3833E1}</Project>
+      <Name>remdesk-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\smartcard\client\smartcard-client.vcxproj">
+      <Project>{BBB7A2E1-9356-3B2D-96E7-A5283A76BE3B}</Project>
+      <Name>smartcard-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\channels\video\client\video-client.vcxproj">
+      <Project>{16266A00-A343-334B-9631-724882F14973}</Project>
+      <Name>video-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\winpr\libwinpr\winpr.vcxproj">
+      <Project>{25A02BD2-E6CA-3248-86D6-0A18B3EF81AF}</Project>
+      <Name>winpr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
