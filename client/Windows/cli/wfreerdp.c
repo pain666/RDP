@@ -40,6 +40,7 @@
 #include "resource.h"
 
 #include "wf_client.h"
+#include "GdiImageDumper.h"
 
 #include <shellapi.h>
 
@@ -58,6 +59,8 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	LPWSTR* args;
 	LPWSTR cmd;
 	char** argv;
+	std::string imageDumpPath;
+	int customArgIndex = -1;
 	ZeroMemory(&clientEntryPoints, sizeof(RDP_CLIENT_ENTRY_POINTS));
 	clientEntryPoints.Size = sizeof(RDP_CLIENT_ENTRY_POINTS);
 	clientEntryPoints.Version = RDP_CLIENT_INTERFACE_VERSION;
@@ -93,6 +96,23 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 		if (WideCharToMultiByte(CP_UTF8, 0, args[i], -1, argv[i], size, NULL,
 		                        NULL) != size)
 			goto out;
+
+		std::string str(argv[i]);
+		if (str.find("/dump:") != std::string::npos) {
+			imageDumpPath = str.substr(6);
+
+			// FreeRDP parser will terminate the program if unknow argument is passed
+			// We need to hide the argument
+			customArgIndex = i;
+		}
+	}
+
+	// Shift custom args to the end of srgv and decrease args count
+	if (customArgIndex > -1) {
+		--argc;
+		if (customArgIndex < argc) {
+			std::swap(argv[customArgIndex], argv[argc]);
+		}
 	}
 
 	settings = context->settings;
@@ -114,6 +134,10 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 		goto out;
 
 	thread = freerdp_client_get_thread(context);
+
+	if (imageDumpPath.length() > 0) {
+		GdiImageDumper::instance().initialize(imageDumpPath);
+	}
 
 	if (thread)
 	{

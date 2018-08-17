@@ -33,6 +33,7 @@
 #include "wf_event.h"
 
 #include <freerdp/event.h>
+#include "GdiImageDumper.h"
 
 static HWND g_focus_hWnd;
 
@@ -682,8 +683,11 @@ BOOL wf_scale_blt(wfContext* wfc, HDC hdc, int x, int y, int w, int h,
 		wh = dh;
 
 	if (wfc->fullscreen || !wfc->context.settings->SmartSizing || (ww == dw
-	        && wh == dh))
+		&& wh == dh))
 	{
+		if (GdiImageDumper::instance().isInitialized()) {
+			GdiImageDumper::instance().dump(wfc->primary->bitmap);
+		}
 		return BitBlt(hdc, x, y, w, h, wfc->primary->hdc, x1, y1, SRCCOPY);
 	}
 	else
@@ -701,7 +705,7 @@ static BOOL wf_scale_mouse_pos(wfContext* wfc, UINT16* x, UINT16* y)
 	int ww, wh, dw, dh;
 	rdpContext* context;
 	rdpSettings* settings;
-       
+
 	if (!wfc || !x || !y)
 		return FALSE;
 
