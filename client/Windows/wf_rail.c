@@ -485,7 +485,7 @@ static BOOL wf_rail_window_common(rdpContext* context,
 		wndClassEx.hbrBackground = NULL;
 		wndClassEx.lpszMenuName = NULL;
 		wndClassEx.lpszClassName = _T("RdpRailWindow");
-		wndClassEx.hInstance = hInstance;
+		wndClassEx.hInstance = (HINSTANCE)hInstance;
 		wndClassEx.hIconSm = NULL;
 		RegisterClassEx(&wndClassEx);
 		railWindow->hWnd = CreateWindowExW(
@@ -499,7 +499,7 @@ static BOOL wf_rail_window_common(rdpContext* context,
 		                       railWindow->height, /* nHeight */
 		                       NULL, /* hWndParent */
 		                       NULL, /* hMenu */
-		                       hInstance, /* hInstance */
+				       			(HINSTANCE)hInstance, /* hInstance */
 		                       NULL /* lpParam */
 		                   );
 		SetWindowLongPtr(railWindow->hWnd, GWLP_USERDATA, (LONG_PTR) railWindow);
