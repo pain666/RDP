@@ -112,13 +112,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\Debug\freerdp-client2.lib;..\..\Debug\freerdp2.lib;..\..\Debug\winpr2.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\Debug\freerdp-client2.lib;..\..\Debug\freerdp2.lib;..\..\Debug\winpr2.lib;ntdsapi.lib;C:\OpenSSL-Win32\lib\libssl.lib;C:\OpenSSL-Win32\lib\libcrypto.lib;crypt32.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;gdiplus.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Projects/RDP/RDP/Debug/wfreerdp.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Projects/RDP/RDP/Debug/wfreerdp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)Debug/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)Debug/wfreerdp.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -161,8 +161,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Projects/RDP/RDP/Release/wfreerdp.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Projects/RDP/RDP/Release/wfreerdp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)Release/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)Release/wfreerdp.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -205,8 +205,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Projects/RDP/RDP/MinSizeRel/wfreerdp.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Projects/RDP/RDP/MinSizeRel/wfreerdp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)MinSizeRel/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)MinSizeRel/wfreerdp.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -248,8 +248,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Projects/RDP/RDP/RelWithDebInfo/wfreerdp.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Projects/RDP/RDP/RelWithDebInfo/wfreerdp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>$(SolutionDir)RelWithDebInfo/wfreerdp.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)RelWithDebInfo/wfreerdp.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -273,6 +273,7 @@
     <ClInclude Include="$(SolutionDir)\client\Windows\wf_client.h" />
     <ClCompile Include="$(SolutionDir)\client\Windows\wf_floatbar.c" />
     <ClInclude Include="$(SolutionDir)\client\Windows\wf_floatbar.h" />
+    <ClInclude Include="$(SolutionDir)\client\Windows\GdiImageDumper.h" />
     <ResourceCompile Include="$(SolutionDir)\client\Windows\wfreerdp.rc" />
     <ClInclude Include="$(SolutionDir)\client\Windows\resource.h" />
     <ResourceCompile Include="$(SolutionDir)\client\Windows\version.rc" />
