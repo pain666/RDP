@@ -35,6 +35,7 @@
 #include <freerdp/client/cmdline.h>
 #include <freerdp/client/channels.h>
 #include <freerdp/channels/channels.h>
+#include <iostream>
 
 #include "resource.h"
 
@@ -76,7 +77,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	if (!args)
 		goto out;
 
-	argv = calloc(argc, sizeof(char*));
+	argv = (char**)calloc(argc, sizeof(char*));
 
 	if (!argv)
 		goto out;
@@ -84,7 +85,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	for (i = 0; i < argc; i++)
 	{
 		int size = WideCharToMultiByte(CP_UTF8, 0, args[i], -1, NULL, 0, NULL, NULL);
-		argv[i] = calloc(size, sizeof(char));
+		argv[i] = (char*)calloc(size, sizeof(char));
 
 		if (!argv[i])
 			goto out;
@@ -138,5 +139,8 @@ out:
 	}
 
 	LocalFree(args);
+
+	getchar();
+
 	return ret;
 }

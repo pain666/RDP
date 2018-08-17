@@ -976,7 +976,7 @@ static BOOL wfreerdp_client_new(freerdp* instance, rdpContext* context)
 
 	instance->PreConnect = wf_pre_connect;
 	instance->PostConnect = wf_post_connect;
-	instance->PostDisconnect = wf_post_disconnect;
+	instance->PostDisconnect = (pPostDisconnect)wf_post_disconnect;
 	instance->Authenticate = wf_authenticate;
 	instance->GatewayAuthenticate = wf_gw_authenticate;
 	instance->VerifyCertificate = wf_verify_certificate;
