@@ -492,10 +492,10 @@ static BOOL wf_gdi_patblt(rdpContext* context, PATBLT_ORDER* patblt)
 	if (!context || !patblt)
 		return FALSE;
 
-	if (!wf_decode_color(wfc, patblt->foreColor, &fgcolor, NULL))
+	if (!wf_decode_color(wfc, patblt->foreColor, (COLORREF*)&fgcolor, NULL))
 		return FALSE;
 
-	if (!wf_decode_color(wfc, patblt->backColor, &bgcolor, NULL))
+	if (!wf_decode_color(wfc, patblt->backColor, (COLORREF*)&bgcolor, NULL))
 		return FALSE;
 
 	brush = wf_create_brush(wfc, &patblt->brush, fgcolor,
@@ -547,7 +547,7 @@ static BOOL wf_gdi_opaque_rect(rdpContext* context,
 	if (!context || !opaque_rect)
 		return FALSE;
 
-	if (!wf_decode_color(wfc, opaque_rect->color, &brush_color, NULL))
+	if (!wf_decode_color(wfc, opaque_rect->color, (COLORREF*)&brush_color, NULL))
 		return FALSE;
 
 	rect.left = opaque_rect->nLeftRect;
@@ -577,7 +577,7 @@ static BOOL wf_gdi_multi_opaque_rect(rdpContext* context,
 	if (!context || !multi_opaque_rect)
 		return FALSE;
 
-	if (!wf_decode_color(wfc, multi_opaque_rect->color, &brush_color,
+	if (!wf_decode_color(wfc, multi_opaque_rect->color, (COLORREF*)&brush_color,
 	                     NULL))
 		return FALSE;
 
@@ -612,7 +612,7 @@ static BOOL wf_gdi_line_to(rdpContext* context, const LINE_TO_ORDER* line_to)
 	if (!context || !line_to)
 		return FALSE;
 
-	if (!wf_decode_color(wfc, line_to->penColor, &pen_color, NULL))
+	if (!wf_decode_color(wfc, line_to->penColor, (COLORREF*)&pen_color, NULL))
 		return FALSE;
 
 	pen = CreatePen(line_to->penStyle, line_to->penWidth, pen_color);
@@ -646,7 +646,7 @@ static BOOL wf_gdi_polyline(rdpContext* context, const POLYLINE_ORDER* polyline)
 	if (!context || !polyline)
 		return FALSE;
 
-	if (!wf_decode_color(wfc, polyline->penColor, &pen_color, NULL))
+	if (!wf_decode_color(wfc, polyline->penColor, (COLORREF*)&pen_color, NULL))
 		return FALSE;
 
 	hpen = CreatePen(0, 1, pen_color);
@@ -756,7 +756,7 @@ static BOOL wf_gdi_mem3blt(rdpContext* context, MEM3BLT_ORDER* mem3blt)
 			goto fail;
 	}
 
-	orgBrush = SelectObject(hdc, brush);
+	orgBrush = (HBRUSH)SelectObject(hdc, brush);
 
 	if (!BitBlt(hdc, mem3blt->nLeftRect, mem3blt->nTopRect,
 	            mem3blt->nWidth, mem3blt->nHeight, bitmap->hdc,
