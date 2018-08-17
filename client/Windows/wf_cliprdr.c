@@ -150,13 +150,62 @@ static BOOL wf_create_file_obj(wfClipboard* cliprdrrdr,
                                IDataObject** ppDataObject);
 static void wf_destroy_file_obj(IDataObject* instance);
 static UINT32 get_remote_format_id(wfClipboard* clipboard, UINT32 local_format);
-static UINT cliprdr_send_data_request(wfClipboard* clipboard, UINT32 format);
-static UINT cliprdr_send_lock(wfClipboard* clipboard);
-static UINT cliprdr_send_unlock(wfClipboard* clipboard);
+static UINT cliprdr_send_data_request(wfClipboard* clipboard, UINT32 formatId)
+{
+	UINT rc;
+	CLIPRDR_FORMAT_DATA_REQUEST formatDataRequest;
+
+	if (!clipboard || !clipboard->context ||
+		!clipboard->context->ClientFormatDataRequest)
+		return ERROR_INTERNAL_ERROR;
+
+	formatDataRequest.requestedFormatId = formatId;
+	clipboard->requestedFormatId = formatId;
+	rc = clipboard->context->ClientFormatDataRequest(clipboard->context,
+		&formatDataRequest);
+
+	if (WaitForSingleObject(clipboard->response_data_event,
+		INFINITE) != WAIT_OBJECT_0)
+		rc = ERROR_INTERNAL_ERROR;
+	else if (!ResetEvent(clipboard->response_data_event))
+		rc = ERROR_INTERNAL_ERROR;
+
+	return rc;
+}
+
+//static UINT cliprdr_send_lock(wfClipboard* clipboard);
+//static UINT cliprdr_send_unlock(wfClipboard* clipboard);
+
 static UINT cliprdr_send_request_filecontents(wfClipboard* clipboard,
-        void* streamid,
-        int index, int flag, DWORD positionhigh,
-        DWORD positionlow, ULONG request);
+	const void* streamid,
+	int index, int flag, DWORD positionhigh,
+	DWORD positionlow, ULONG nreq)
+{
+	UINT rc;
+	CLIPRDR_FILE_CONTENTS_REQUEST fileContentsRequest;
+
+	if (!clipboard || !clipboard->context ||
+		!clipboard->context->ClientFileContentsRequest)
+		return ERROR_INTERNAL_ERROR;
+
+	fileContentsRequest.streamId = (UINT32)streamid;
+	fileContentsRequest.listIndex = index;
+	fileContentsRequest.dwFlags = flag;
+	fileContentsRequest.nPositionLow = positionlow;
+	fileContentsRequest.nPositionHigh = positionhigh;
+	fileContentsRequest.cbRequested = nreq;
+	fileContentsRequest.clipDataId = 0;
+	fileContentsRequest.msgFlags = 0;
+	rc = clipboard->context->ClientFileContentsRequest(clipboard->context,
+		&fileContentsRequest);
+
+	if (WaitForSingleObject(clipboard->req_fevent, INFINITE) != WAIT_OBJECT_0)
+		rc = ERROR_INTERNAL_ERROR;
+	else if (!ResetEvent(clipboard->req_fevent))
+		rc = ERROR_INTERNAL_ERROR;
+
+	return rc;
+}
 
 static void CliprdrDataObject_Delete(CliprdrDataObject* instance);
 
@@ -173,7 +222,7 @@ static void CliprdrStream_Delete(CliprdrStream* instance);
 static HRESULT STDMETHODCALLTYPE CliprdrStream_QueryInterface(IStream* This,
         REFIID riid, void** ppvObject)
 {
-	if (IsEqualIID(riid, &IID_IStream) || IsEqualIID(riid, &IID_IUnknown))
+	if (IsEqualIID(riid, IID_IStream) || IsEqualIID(riid, IID_IUnknown))
 	{
 		IStream_AddRef(This);
 		*ppvObject = This;
@@ -520,7 +569,7 @@ static HRESULT STDMETHODCALLTYPE CliprdrDataObject_QueryInterface(
 	if (!ppvObject)
 		return E_INVALIDARG;
 
-	if (IsEqualIID(riid, &IID_IDataObject) || IsEqualIID(riid, &IID_IUnknown))
+	if (IsEqualIID(riid, IID_IDataObject) || IsEqualIID(riid, IID_IUnknown))
 	{
 		IDataObject_AddRef(This);
 		*ppvObject = This;
@@ -887,7 +936,7 @@ static HRESULT STDMETHODCALLTYPE CliprdrEnumFORMATETC_QueryInterface(
 {
 	(void)This;
 
-	if (IsEqualIID(riid, &IID_IEnumFORMATETC) || IsEqualIID(riid, &IID_IUnknown))
+	if (IsEqualIID(riid, IID_IEnumFORMATETC) || IsEqualIID(riid, IID_IUnknown))
 	{
 		IEnumFORMATETC_AddRef(This);
 		*ppvObject = This;
@@ -1304,60 +1353,6 @@ static UINT cliprdr_send_format_list(wfClipboard* clipboard)
 		free(formats[index].formatName);
 
 	free(formats);
-	return rc;
-}
-
-static UINT cliprdr_send_data_request(wfClipboard* clipboard, UINT32 formatId)
-{
-	UINT rc;
-	CLIPRDR_FORMAT_DATA_REQUEST formatDataRequest;
-
-	if (!clipboard || !clipboard->context ||
-	    !clipboard->context->ClientFormatDataRequest)
-		return ERROR_INTERNAL_ERROR;
-
-	formatDataRequest.requestedFormatId = formatId;
-	clipboard->requestedFormatId = formatId;
-	rc = clipboard->context->ClientFormatDataRequest(clipboard->context,
-	        &formatDataRequest);
-
-	if (WaitForSingleObject(clipboard->response_data_event,
-	                        INFINITE) != WAIT_OBJECT_0)
-		rc = ERROR_INTERNAL_ERROR;
-	else if (!ResetEvent(clipboard->response_data_event))
-		rc = ERROR_INTERNAL_ERROR;
-
-	return rc;
-}
-
-static UINT cliprdr_send_request_filecontents(wfClipboard* clipboard,
-        const void* streamid,
-        int index, int flag, DWORD positionhigh,
-        DWORD positionlow, ULONG nreq)
-{
-	UINT rc;
-	CLIPRDR_FILE_CONTENTS_REQUEST fileContentsRequest;
-
-	if (!clipboard || !clipboard->context ||
-	    !clipboard->context->ClientFileContentsRequest)
-		return ERROR_INTERNAL_ERROR;
-
-	fileContentsRequest.streamId = (UINT32) streamid;
-	fileContentsRequest.listIndex = index;
-	fileContentsRequest.dwFlags = flag;
-	fileContentsRequest.nPositionLow = positionlow;
-	fileContentsRequest.nPositionHigh = positionhigh;
-	fileContentsRequest.cbRequested = nreq;
-	fileContentsRequest.clipDataId = 0;
-	fileContentsRequest.msgFlags = 0;
-	rc = clipboard->context->ClientFileContentsRequest(clipboard->context,
-	        &fileContentsRequest);
-
-	if (WaitForSingleObject(clipboard->req_fevent, INFINITE) != WAIT_OBJECT_0)
-		rc = ERROR_INTERNAL_ERROR;
-	else if (!ResetEvent(clipboard->req_fevent))
-		rc = ERROR_INTERNAL_ERROR;
-
 	return rc;
 }
 
@@ -1934,7 +1929,7 @@ static UINT wf_cliprdr_server_format_list(CliprdrClientContext* context,
 			int size = MultiByteToWideChar(CP_UTF8, 0, format->formatName,
 			                               strlen(format->formatName),
 			                               NULL, 0);
-			mapping->name = calloc(size + 1, sizeof(WCHAR));
+			mapping->name = (WCHAR*)calloc(size + 1, sizeof(WCHAR));
 
 			if (mapping->name)
 			{
@@ -2484,7 +2479,7 @@ BOOL wf_cliprdr_init(wfContext* wfc, CliprdrClientContext* cliprdr)
 	if (!wfc->clipboard)
 		return FALSE;
 
-	clipboard = wfc->clipboard;
+	clipboard = (wfClipboard*)wfc->clipboard;
 	clipboard->wfc = wfc;
 	clipboard->context = cliprdr;
 	clipboard->channels = context->channels;
@@ -2532,7 +2527,7 @@ BOOL wf_cliprdr_init(wfContext* wfc, CliprdrClientContext* cliprdr)
 	cliprdr->ServerFormatDataRequest = wf_cliprdr_server_format_data_request;
 	cliprdr->ServerFormatDataResponse = wf_cliprdr_server_format_data_response;
 	cliprdr->ServerFileContentsRequest = wf_cliprdr_server_file_contents_request;
-	cliprdr->ServerFileContentsResponse = wf_cliprdr_server_file_contents_response;
+	cliprdr->ServerFileContentsResponse = (pcCliprdrServerFileContentsResponse)wf_cliprdr_server_file_contents_response;
 	cliprdr->custom = (void*) wfc->clipboard;
 	return TRUE;
 error:
@@ -2547,7 +2542,7 @@ BOOL wf_cliprdr_uninit(wfContext* wfc, CliprdrClientContext* cliprdr)
 	if (!wfc || !cliprdr)
 		return FALSE;
 
-	clipboard = wfc->clipboard;
+	clipboard = (wfClipboard*)wfc->clipboard;
 
 	if (!clipboard)
 		return FALSE;

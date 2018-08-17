@@ -342,8 +342,8 @@ BOOL wf_register_pointer(rdpGraphics* graphics)
 	wfc = (wfContext*) graphics->context;
 	ZeroMemory(&pointer, sizeof(rdpPointer));
 	pointer.size = sizeof(wfPointer);
-	pointer.New = wf_Pointer_New;
-	pointer.Free = wf_Pointer_Free;
+	pointer.New = (pPointer_New)wf_Pointer_New;
+	pointer.Free = (pPointer_Free)wf_Pointer_Free;
 	pointer.Set = wf_Pointer_Set;
 	pointer.SetNull = wf_Pointer_SetNull;
 	pointer.SetDefault = wf_Pointer_SetDefault;
