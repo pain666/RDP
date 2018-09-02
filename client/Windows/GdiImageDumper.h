@@ -8,6 +8,11 @@
 #include <string>
 #include <iostream>
 #include <Objbase.h>
+#include <wingdi.h>
+#include <vector>
+#include "FrameBuffer.h"
+#include "ImageProcessing/gif.h"
+#include <ctime>
 using namespace Gdiplus;
 
 class GdiImageDumper {
@@ -18,40 +23,62 @@ public:
 		return s;
 	}
 
-	void dump(HBITMAP bitmap)
+	void saveFrame(HBITMAP bitmap)
 	{
-		if (bInitialized)
-		{
-			Bitmap image(bitmap, NULL);
-			std::wstring imagePath = path + L"\\image" + std::to_wstring(saveIndex++) + L".png";
-			image.Save(imagePath.data(), &pngClsid, NULL);
+		if (isLocked) {
+			std::cerr << "Attemp to save image in locked state\n";
+			return;
 		}
-		else {
+
+		if (bInitialized) {
 			std::cerr << "Dumper is not initialized\n";
+			return;
 		}
+
+		BITMAP bm;
+		GetObject(bitmap, sizeof(bm), (LPVOID)&bm);
+		frameBuffer.add((uint8_t*)bm.bmBits);
 	}
 
-	void initialize(std::string str)
+	void dump()
+	{
+		if (bInitialized) {
+			std::cerr << "Dumper is not initialized\n";
+			return;
+		}
+
+		isLocked = true;
+		GifBegin(&writer, (path + "\\F.gif").c_str(), frameBuffer.frameW, frameBuffer.frameH, 0);
+		int count = 0;
+		for (auto it = frameBuffer.begin(); it != frameBuffer.end(); ++it) {
+			GifWriteFrame(&writer, it->bitmap, frameBuffer.frameW, frameBuffer.frameH, 10);
+			++count;
+		}
+		std::cout << "Frames count:  " << count;
+		GifEnd(&writer);
+		isLocked = false;
+	}
+
+	void initialize(std::string str, unsigned int frameW, unsigned int frameH)
 	{
 		if (bInitialized) {
 			return;
 		}
 
+		struct stat s;
+		if (!(stat(str.data(), &s) == 0 && s.st_mode & S_IFDIR)) {
+			std::cerr << "Image dump directory does not exist\n";
+			return;
+		}
+
 		GdiplusStartupInput gdiplusStartupInput;
 		GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
-		CLSIDFromString(L"{557cf406-1a04-11d3-9a73-0000f81ef32e}", &pngClsid);
 
-		struct stat s;
-		if (stat(str.data(), &s) == 0 && s.st_mode & S_IFDIR)
-		{
-			std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
-			path = converter.from_bytes(str);
-			bInitialized = true;
-		}
-		else
-		{
-			std::cerr << "Image dump directory does not exist\n";
-		}
+		path = str;
+		frameBuffer.frameH = frameH;
+		frameBuffer.frameW = frameW;
+
+		bInitialized = true;
 	}
 
 	bool isInitialized()
@@ -65,11 +92,16 @@ private:
 	~GdiImageDumper()
 	{
 		GdiplusShutdown(gdiplusToken);
+		GifEnd(&writer);
 	}
 
 	ULONG_PTR gdiplusToken = 0;
 	bool bInitialized = false;
 	CLSID pngClsid;
-	std::wstring path;
+	std::string path;
 	int saveIndex = 0;
+	GifWriter writer;
+	FrameBuffer frameBuffer;
+
+	bool isLocked = false;
 };

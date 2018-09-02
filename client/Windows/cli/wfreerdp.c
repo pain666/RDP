@@ -66,6 +66,8 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	clientEntryPoints.Version = RDP_CLIENT_INTERFACE_VERSION;
 	RdpClientEntry(&clientEntryPoints);
 	context = freerdp_client_context_new(&clientEntryPoints);
+	unsigned int frameW = 0;
+	unsigned int frameH = 0;
 
 	if (!context)
 		return -1;
@@ -105,6 +107,12 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 			// We need to hide the argument
 			customArgIndex = i;
 		}
+		if (str.find("/w:") != std::string::npos) {
+			 frameW = std::stoi(str.substr(3));
+		}
+		if (str.find("/h:") != std::string::npos) {
+			frameH = std::stoi(str.substr(3));
+		}
 	}
 
 	// Shift custom args to the end of srgv and decrease args count
@@ -136,7 +144,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	thread = freerdp_client_get_thread(context);
 
 	if (imageDumpPath.length() > 0) {
-		GdiImageDumper::instance().initialize(imageDumpPath);
+		GdiImageDumper::instance().initialize(imageDumpPath, frameW, frameH);
 	}
 
 	if (thread)
