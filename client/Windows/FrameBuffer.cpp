@@ -3,30 +3,28 @@
 #include <chrono>
 #include "freerdp/log.h"
 
-FrameBuffer::FrameBuffer(int w, int h, int historySize) :
-	frameW(w), frameH(h), historySize(historySize) {};
+FrameBuffer::FrameBuffer(int w, int h) :
+	frameW(w), frameH(h)
+{
+	if (w == 0 || h == 0) {
+		throw std::invalid_argument("Width and Height can not be 0");
+	}
+};
 
-void FrameBuffer::add(uint8_t* buf)
+void FrameBuffer::add(LICE_pixel * buf)
 {
 	// 4 bytes per pixel
-	size_t size = frameW * frameH * 4;
-	if (size == 0) {
-		std::cerr << "Buffer add() failed: frameW or frameH is 0";
-		return;
-	}
+	size_t size = frameW * frameH;
 
 	Frame frame;
 	frame.timestamp = std::chrono::system_clock::now();
+
+	frame.bitmap = std::make_shared<LICE_MemBitmap>(frameW, frameH, 0);
+	std::copy(buf, buf + size, frame.bitmap->getBits());
+
 	frames.push_back(frame);
 
-	auto bitmap = frames.back().bitmap;
-
-
-	bitmap = new BYTE[size];
-	std::copy(buf, buf + size, bitmap);
-
-
-	//Keep only frames within last 15 seconds
+	//Keep only frames within last historySize seconds
 	auto getDelta = [&]() {
 		std::chrono::duration<double> elapsed_seconds = frames.back().timestamp - frames.front().timestamp;
 		return elapsed_seconds.count();
@@ -34,7 +32,8 @@ void FrameBuffer::add(uint8_t* buf)
 
 	auto secondsDelta = getDelta();
 
-	while (secondsDelta > historySize && frames.size() > 2) {
+	//TODO IMPORTANT:: change to seconds delta when the size of buffer is optimized
+	while (/*secondsDelta > historySize &&*/ frames.size() > 69) {
 		frames.pop_front();
 		secondsDelta = getDelta();
 	}
@@ -59,13 +58,28 @@ std::deque<Frame>::iterator FrameBuffer::end()
 	return frames.end();
 }
 
+int FrameBuffer::getWidth()
+{
+	return frameW;
+}
 
-//Performance measure draft
-//std::chrono::steady_clock::time_point start = std::chrono::steady_clock::now();
+int FrameBuffer::getHeight()
+{
+	return frameH;
+}
+
+/*
+=======================================================================
+					PERFORMANCE MEASURE DRAFT
+=======================================================================
+
+std::chrono::steady_clock::time_point start = std::chrono::steady_clock::now();
 //...do something.....
-//std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
-//std::cout << "bitmap.resize and std::copy took: " << std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count()
-//	<< "ms"<< std::endl;
+std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
+std::cout << "bitmap.resize and std::copy took: " << std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count()
+	<< "ms"<< std::endl;
 
 //To write log in release
-//WLog_INFO("", "%s%d", "bitmap.resize and std::copy took :", std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count());
+WLog_INFO("", "%s%d", "bitmap.resize and std::copy took :", std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count());
+
+*/
