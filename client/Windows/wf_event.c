@@ -82,8 +82,7 @@ LRESULT CALLBACK wf_ll_kbd_proc(int nCode, WPARAM wParam, LPARAM lParam)
 			case WM_KEYDOWN:
 			case WM_SYSKEYDOWN:
 			case WM_KEYUP:
-				//GdiImageDumper::instance().dump();
-				//break;
+				GdiImageDumper::instance().dump();
 			case WM_SYSKEYUP:
 				wfc = (wfContext*) GetWindowLongPtr(g_focus_hWnd, GWLP_USERDATA);
 				p = (PKBDLLHOOKSTRUCT) lParam;
@@ -688,7 +687,7 @@ BOOL wf_scale_blt(wfContext* wfc, HDC hdc, int x, int y, int w, int h,
 		&& wh == dh))
 	{
 		if (GdiImageDumper::instance().isInitialized()) {
-			GdiImageDumper::instance().saveFrame(wfc->primary->bitmap);
+			GdiImageDumper::instance().saveFrame(wfc->primary->bitmap, wfc->primary->hdc);
 		}
 		return BitBlt(hdc, x, y, w, h, wfc->primary->hdc, x1, y1, SRCCOPY);
 	}
